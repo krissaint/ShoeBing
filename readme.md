@@ -1,3 +1,4 @@
+Link to github: https://github.com/krissaint/ShoeBing
 # Clone the repo
 git clone https://github.com/krissaint/ShoeBing.git
 
