@@ -24,5 +24,5 @@ MONGO_URL = mongodb+srv://admin:admin123456@shoeshop1.kkca3w7.mongodb.net/shoeDa
 
 # Open folder "server" in terminal
 npm start server
-# Open folder "client frontend in terminal
+# Open folder "client frontend" in terminal
 npm start
