@@ -5,6 +5,7 @@ git clone https://github.com/krissaint/ShoeBing.git
 npm install
 # Check the dependency
 npm install bcryptjs dotenv express express-async-handler jsonwebtoken mongoose morgan
+
 npm install -D concurrently nodemon
 
 # Create .env file in server folder and paste this variables
