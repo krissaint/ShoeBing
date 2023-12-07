@@ -16,7 +16,7 @@ npm install -D concurrently nodemon
 
 # Sign in in mongo dB and create project in mongo dB to get mongo url and then paste the url in .env file in MONGO_URI 
 # Your mongo url will first look like this: 
-mongodb+srv://admin:<password>@shoeshop1.kkca3w7.mongodb.net/?retryWrites=true&w=majority
+mongodb+srv://admin:password@shoeshop1.kkca3w7.mongodb.net/?retryWrites=true&w=majority
 # Then you can paste the password and your mongo url will look like this:
 MONGO_URL = mongodb+srv://admin:admin123456@shoeshop1.kkca3w7.mongodb.net/shoeDatabase?retryWrites=true&w=majority
     
