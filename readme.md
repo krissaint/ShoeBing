@@ -21,8 +21,14 @@ npm install -D concurrently nodemon
 mongodb+srv://admin:password@shoeshop1.kkca3w7.mongodb.net/?retryWrites=true&w=majority
 # Then you can paste the password and your mongo url will look like this:
 MONGO_URL = mongodb+srv://admin:admin123456@shoeshop1.kkca3w7.mongodb.net/shoeDatabase?retryWrites=true&w=majority
-    
+
 # Sign in in paypal and to get paypal client id to paste it in .env file in PAYPAL_CLIENT_ID
+
+# Download and open postman choose POST method and run 
+http://localhost:5000/api/import/user 
+http://localhost:5000/api/import/products 
+# Choose GET as method and run 
+http://localhost:5000/api/products 
 
 # Open folder "server" in terminal
 npm start server
