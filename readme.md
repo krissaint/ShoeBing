@@ -34,3 +34,4 @@ http://localhost:5000/api/products
 npm start server
 # Open folder "client frontend" in terminal
 npm start
+
