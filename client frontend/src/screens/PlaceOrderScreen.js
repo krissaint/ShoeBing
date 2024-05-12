@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { createOrder } from "../Redux/Actions/OrderActions";
 import { ORDER_CREATE_RESET } from "../Redux/Constants/OrderConstants";
 import Header from "./../components/Header";
-import Message from "./../components/LoadingError/Error";
+import Message from "./../components/LoadingError/Error"; 
 
 const PlaceOrderScreen = ({ history }) => {
   window.scrollTo(0, 0);
