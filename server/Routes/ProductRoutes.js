@@ -4,7 +4,7 @@ import Product from "./../Models/ProductModel.js";
 import { admin, protect } from "./../Middleware/AuthMiddleware.js";
 
 const productRoute = express.Router();
-
+ 
 // GET ALL PRODUCT
 productRoute.get(
   "/",
