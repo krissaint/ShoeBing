@@ -5,7 +5,7 @@ import Message from "../components/LoadingError/Error";
 import Loading from "../components/LoadingError/Loading";
 import { register } from "../Redux/Actions/userActions";
 import Header from "./../components/Header";
-
+ 
 const Register = ({ location, history }) => {
   window.scrollTo(0, 0);
   const [name, setName] = useState("");
