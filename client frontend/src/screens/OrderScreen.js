@@ -8,7 +8,7 @@ import Loading from "./../components/LoadingError/Loading";
 import Message from "./../components/LoadingError/Error";
 import moment from "moment";
 import axios from "axios";
-import { ORDER_PAY_RESET } from "../Redux/Constants/OrderConstants";
+import { ORDER_PAY_RESET } from "../Redux/Constants/OrderConstants"; 
 
 const OrderScreen = ({ match }) => {
   window.scrollTo(0, 0);
