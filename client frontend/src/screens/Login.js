@@ -64,4 +64,4 @@ const Login = ({ location, history }) => {
   );
 };
 
-export default Login;
+export default Login; 
