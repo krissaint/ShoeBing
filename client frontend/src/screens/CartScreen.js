@@ -31,7 +31,7 @@ const CartScreen = ({ match, location, history }) => {
   return (
     <>
       <Header />
-      {/* Cart */}
+      {/*  Cart  */}
       <div className="container">
         {cartItems.length === 0 ? (
           <div className=" alert alert-info text-center mt-3">
